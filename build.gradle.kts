@@ -12,6 +12,12 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    // gson
+    implementation("com.google.code.gson:gson:2.8.6")
+
+    //okhttp
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
 }
 
 tasks.test {
